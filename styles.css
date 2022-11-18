@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+
+.btn,
+.num,
+.result-btn,
+.result {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-color: rgb(255, 220, 255);
+  cursor: pointer;
+}
+
+.num {
+  border: none;
+  background-color: rgb(237, 201, 255);
+  height: 30px;
+  width: 200px;
+}
+
+.result-btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: rgb(237, 201, 255);
+}
+
+.result {
+  width: 185px;
+  height: 50px;
+  background-color: rgb(255, 220, 239);
+  padding: 10px;
+}
